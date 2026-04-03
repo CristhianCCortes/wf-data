@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-04-03T00:00:00Z",
+  "sources": {
+    "i18n": {
+      "version": "2026.04.03",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@2026.04.03/sources/2026.04.03/i18n.json",
+      "sha256": "",
+      "size": 0
+    },
+    "mods": {
+      "version": "2026.04.03",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@2026.04.03/sources/2026.04.03/Mods.json",
+      "sha256": "",
+      "size": 0
+    },
+    "arcanes": {
+      "version": "2026.04.03",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@2026.04.03/sources/2026.04.03/Arcanes.json",
+      "sha256": "",
+      "size": 0
+    },
+    "relics": {
+      "version": "2026.04.03",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@2026.04.03/sources/2026.04.03/Relics.json",
+      "sha256": "",
+      "size": 0
+    }
+  }
+}
