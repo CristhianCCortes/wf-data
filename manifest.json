@@ -4,7 +4,7 @@
   "sources": {
     "i18n": {
       "version": "2026.04.03",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@2026.04.03/sources/2026.04.03/i18n.json",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/2026.04.03/sources/2026.04.03/i18n.json",
       "sha256": "",
       "size": 0
     },
