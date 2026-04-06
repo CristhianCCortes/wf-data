@@ -1,0 +1,38 @@
+name: Sync wf-data (auto) — Public Export + fallback
+
+on:
+  # Corre automático (cada 6 horas). Puedes cambiarlo a diario luego.
+  schedule:
+    - cron: "0 */6 * * *"
+  # Permite correrlo manualmente también
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run sync (inject name_es + new snapshot + rebuild manifest)
+        run: |
+          python3 tools/sync_de_es.py
+
+      - name: Commit & push changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Agregamos cambios que típicamente produce el script
+          git add manifest.json sources tools/sync_de_es.py || true
+
+          git commit -m "Auto-sync: update sources + manifest" || echo "Sin cambios"
+          git push
