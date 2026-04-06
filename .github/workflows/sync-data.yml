@@ -3,7 +3,7 @@ name: Sync wf-data (auto) — Public Export + fallback
 on:
   # Corre automático (cada 6 horas). Puedes cambiarlo a diario luego.
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 6 * * *"
   # Permite correrlo manualmente también
   workflow_dispatch:
 
