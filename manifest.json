@@ -38,6 +38,12 @@
       "sha256": "221a8c2381f03c57938d6b8d9abd3746650a945b65b6c04003df290fdd02c3bd",
       "size": 6848139
     },
+    "Primary.json": {
+      "version": "2026.04.03",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.03/Primary.json",
+      "sha256": "0cbfb83bc3b6604a49621c0c06086e969ce0aaf989f3aa9730d30660c80a34c6",
+      "size": 2096534
+    },
     "Relics.json": {
       "version": "2026.04.03",
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.03/Relics.json",
