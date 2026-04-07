@@ -1,88 +1,88 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026.04.06",
+  "generatedAt": "2026.04.07",
   "sources": {
     "Arcanes.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Arcanes.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Arcanes.json",
       "sha256": "bab7301b2f69bb2c21c66c8aca305a80dcfe840b44380956c06c889b3cf25d38",
       "size": 408051
     },
     "Arch-Gun.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Arch-Gun.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Arch-Gun.json",
       "sha256": "8438dbea3cb79a4e163790b596d07c487a22d2c2189a38fd07612e9b3a2386f4",
       "size": 155016
     },
     "Arch-Melee.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Arch-Melee.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Arch-Melee.json",
       "sha256": "45209c05b46511a788cd71257df8d0a7af007d1bd07dee5d589e425883fe7988",
       "size": 29714
     },
     "Archwing.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Archwing.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Archwing.json",
       "sha256": "c3216587365728ccc90fbda9f1fded12f47de5cd718a589edea7573733fad733",
       "size": 52933
     },
     "Melee.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Melee.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Melee.json",
       "sha256": "27d83125a0fe7a7c779bdb1c49aac8904971350fe7c82f4c1a5a681ca19224da",
       "size": 2616196
     },
     "Mods.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Mods.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Mods.json",
       "sha256": "fd94cb247f7d4702897139f687adb280a034d400cc464544f78c1120b9cf5eab",
       "size": 9861380
     },
     "Primary.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Primary.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Primary.json",
       "sha256": "0cbfb83bc3b6604a49621c0c06086e969ce0aaf989f3aa9730d30660c80a34c6",
       "size": 2096534
     },
     "Relics.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Relics.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Relics.json",
       "sha256": "3069357b4d0f72315353e03e2ed44ee5fbedf40b48f360240c77c11500db743b",
       "size": 8516713
     },
     "Secondary.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Secondary.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Secondary.json",
       "sha256": "0d440f18db942b5a22d035a042520b54b39abc39dcec4fe8e8eb69803122c3cc",
       "size": 1771153
     },
     "SentinelWeapons.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/SentinelWeapons.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/SentinelWeapons.json",
       "sha256": "ff6a3fcbd8cfa4f7ab3c3f9ab961c34d27d8e2034e8be375348fc4ee6b8c52a2",
       "size": 63686
     },
     "Sentinels.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Sentinels.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Sentinels.json",
       "sha256": "75110ced04fbaae4187d15d7dc6d6042d5fefbcab6dbee3c294de6cd92de83c3",
       "size": 218562
     },
     "Warframes.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/Warframes.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/Warframes.json",
       "sha256": "350197e690380b4923cb7f26544c61378befffc79a5e3b72dfa9fabe9120b6f1",
       "size": 4570802
     },
     "es.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/es.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/es.json",
       "sha256": "5dd5fa8ee28dff2e265c31e27a3859172de4fa0765aa6b678950c6c01f5b7fbf",
       "size": 17995350
     },
     "i18n.json": {
-      "version": "2026.04.06",
-      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.06/i18n.json",
+      "version": "2026.04.07",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.07/i18n.json",
       "sha256": "947550d4cb865f9c107da3dfab3be42323576713b106b4bbdeed7ef028236a74",
       "size": 51093490
     }
