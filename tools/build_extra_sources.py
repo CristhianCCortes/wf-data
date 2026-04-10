@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Genera fuentes adicionales (Amps y Necramechs) desde exports del Public Export vía mirror.
+Genera fuentes adicionales desde exports del Public Export vía mirror.
+
+Incluye:
 - Amps: piezas modulares (Prism/Scaffold/Brace) detectadas por uniqueName con '/OperatorAmplifiers/'.
 - Necramechs: detectados por uniqueName con '/EntratiMech/'.
-Escribe archivos JSON en sources/YYYY.MM.DD (UTC) sin tocar manifest (eso lo hace sync_de_es.py).
+- Zaws: piezas modulares Ostron detectadas por uniqueName con 'ModularMelee' (preferimos partes y evitamos '/Balance/').
+- Kitguns: piezas modulares Solaris detectadas por uniqueName con '/InfKitGun/' o 'ModularGun' (preferimos partes y evitamos '/Balance/').
+
+Escribe archivos JSON en sources/YYYY.MM.DD (UTC).
+NOTA: El manifest lo regenera tools/sync_de_es.py.
 """
 
 import os, json, datetime
@@ -15,7 +21,7 @@ WEAPONS_ES = MIRROR_BASE + "ExportWeapons_es.json"
 WARFRAMES_ES = MIRROR_BASE + "ExportWarframes_es.json"
 
 def http_json(url: str):
-    req = Request(url, headers={"User-Agent": "wf-data-extra/1.1"})
+    req = Request(url, headers={"User-Agent": "wf-data-extra/1.2"})
     with urlopen(req, timeout=60) as r:
         return json.loads(r.read().decode("utf-8", errors="replace"))
 
@@ -26,7 +32,8 @@ def write_json(path: str, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def part_kind_from_unique(un: str) -> str:
+# ---------- Helpers ----------
+def part_kind_from_unique_amp(un: str) -> str:
     un = un or ""
     if un.endswith("PrismPart"):
         return "Prisma"
@@ -36,6 +43,36 @@ def part_kind_from_unique(un: str) -> str:
         return "Soporte"
     return "Parte"
 
+def is_probable_part(un: str) -> bool:
+    # Heurística genérica para “partes”: suele terminar en 'Part' o contener '/Parts/'
+    un = un or ""
+    return un.endswith("Part") or "/Parts/" in un or "\\Parts\\" in un
+
+def is_balance_entry(un: str) -> bool:
+    un = un or ""
+    return "/Balance/" in un or "\\Balance\\" in un
+
+def part_kind_from_unique_zaw(un: str) -> str:
+    un = un or ""
+    if "/Blades/" in un or "/Strikes/" in un:
+        return "Golpe"
+    if "/Handles/" in un or "/Grips/" in un:
+        return "Empuñadura"
+    if "/Links/" in un:
+        return "Enlace"
+    return "Parte"
+
+def part_kind_from_unique_kitgun(un: str) -> str:
+    un = un or ""
+    if "/Barrels/" in un or "/Chambers/" in un:
+        return "Cámara"
+    if "/Grips/" in un:
+        return "Empuñadura"
+    if "/Chips/" in un or "/Loaders/" in un:
+        return "Cargador"
+    return "Parte"
+
+# ---------- Builders ----------
 def build_amps(export_weapons_list):
     amps = []
     for o in export_weapons_list:
@@ -47,13 +84,12 @@ def build_amps(export_weapons_list):
         amps.append({
             "name": o.get("name"),
             "uniqueName": un,
-            "partType": part_kind_from_unique(un),
+            "partType": part_kind_from_unique_amp(un),
             "productCategory": o.get("productCategory"),
             "category": o.get("category"),
             "type": o.get("type"),
             "masteryReq": o.get("masteryReq"),
         })
-    # Orden: primero por tipo de parte, luego por nombre
     order = {"Prisma": 1, "Armazón": 2, "Soporte": 3, "Parte": 9}
     amps.sort(key=lambda x: (order.get(x.get("partType","Parte"), 9), (x.get("name") or "")))
     return amps
@@ -77,6 +113,58 @@ def build_necramechs(export_warframes_list):
     mechs.sort(key=lambda x: (x.get("name") or ""))
     return mechs
 
+def build_zaws(export_weapons_list):
+    zaws = []
+    for o in export_weapons_list:
+        if not isinstance(o, dict):
+            continue
+        un = o.get("uniqueName") or ""
+        if "ModularMelee" not in un:
+            continue
+        # Evitar entradas de balance y quedarse con partes reales
+        if is_balance_entry(un):
+            continue
+        # Zaws: las piezas reales suelen estar en rutas /Handle/ y /Tip/ (no necesariamente terminan en "Part")
+        if ("/Handle/" not in un) and ("/Tip/" not in un) and ("/Link/" not in un) and ("/Links/" not in un):
+            continue
+        zaws.append({
+            "name": o.get("name"),
+            "uniqueName": un,
+            "partType": part_kind_from_unique_zaw(un),
+            "productCategory": o.get("productCategory"),
+            "category": o.get("category"),
+            "type": o.get("type"),
+            "masteryReq": o.get("masteryReq"),
+        })
+    order = {"Golpe": 1, "Empuñadura": 2, "Enlace": 3, "Parte": 9}
+    zaws.sort(key=lambda x: (order.get(x.get("partType","Parte"), 9), (x.get("name") or "")))
+    return zaws
+
+def build_kitguns(export_weapons_list):
+    kitguns = []
+    for o in export_weapons_list:
+        if not isinstance(o, dict):
+            continue
+        un = o.get("uniqueName") or ""
+        if ("/InfKitGun/" not in un) and ("ModularGun" not in un):
+            continue
+        if is_balance_entry(un):
+            continue
+        if not is_probable_part(un):
+            continue
+        kitguns.append({
+            "name": o.get("name"),
+            "uniqueName": un,
+            "partType": part_kind_from_unique_kitgun(un),
+            "productCategory": o.get("productCategory"),
+            "category": o.get("category"),
+            "type": o.get("type"),
+            "masteryReq": o.get("masteryReq"),
+        })
+    order = {"Cámara": 1, "Empuñadura": 2, "Cargador": 3, "Parte": 9}
+    kitguns.sort(key=lambda x: (order.get(x.get("partType","Parte"), 9), (x.get("name") or "")))
+    return kitguns
+
 def main(out_dir: str):
     ensure_dir(out_dir)
 
@@ -88,17 +176,19 @@ def main(out_dir: str):
 
     amps = build_amps(export_weapons)
     mechs = build_necramechs(export_warframes)
+    zaws = build_zaws(export_weapons)
+    kitguns = build_kitguns(export_weapons)
 
     write_json(os.path.join(out_dir, "Amps.json"), amps)
     write_json(os.path.join(out_dir, "Necramechs.json"), mechs)
-
-    # placeholders (próximo paso): Zaws / Kitguns
-    # write_json(os.path.join(out_dir, "Zaws.json"), [])
-    # write_json(os.path.join(out_dir, "Kitguns.json"), [])
+    write_json(os.path.join(out_dir, "Zaws.json"), zaws)
+    write_json(os.path.join(out_dir, "Kitguns.json"), kitguns)
 
     print("OK: Generados en", out_dir)
     print(" - Amps.json:", len(amps))
     print(" - Necramechs.json:", len(mechs))
+    print(" - Zaws.json:", len(zaws))
+    print(" - Kitguns.json:", len(kitguns))
 
 if __name__ == "__main__":
     today = datetime.datetime.utcnow().strftime("%Y.%m.%d")
