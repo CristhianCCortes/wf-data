@@ -32,6 +32,12 @@
       "sha256": "c3216587365728ccc90fbda9f1fded12f47de5cd718a589edea7573733fad733",
       "size": 52933
     },
+    "Kitguns.json": {
+      "version": "2026.04.10",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.10/Kitguns.json",
+      "sha256": "4564ef1ff268ba46c2f0586c7cb826b72b6f79dc00a3ab6d6e149ed8a74e0ddb",
+      "size": 2121
+    },
     "Melee.json": {
       "version": "2026.04.10",
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.10/Melee.json",
@@ -85,6 +91,12 @@
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.10/Warframes.json",
       "sha256": "350197e690380b4923cb7f26544c61378befffc79a5e3b72dfa9fabe9120b6f1",
       "size": 4570802
+    },
+    "Zaws.json": {
+      "version": "2026.04.10",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.10/Zaws.json",
+      "sha256": "6290d0dab8866702a9638b1b2c968dfe802e7a4b3e64e431468181c02837b158",
+      "size": 5294
     },
     "es.json": {
       "version": "2026.04.10",
