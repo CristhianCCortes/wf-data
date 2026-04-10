@@ -183,6 +183,17 @@ def main():
     print(f"Creando snapshot: {target} (copiando desde {src_latest})")
     ensure_snapshot_copy(src_latest, target)
 
+    # __EXTRA_SOURCES__
+    # Generar fuentes extra (Amps/Necramechs) dentro del snapshot actual
+    try:
+        import subprocess
+        print("Generando fuentes extra (Amps/Necramechs)...")
+        subprocess.check_call(["python3", "tools/build_extra_sources.py"])
+    except Exception as e:
+        # No bloqueamos todo si falla el extra; solo registramos el error
+        print("WARN: no se pudieron generar fuentes extra:", e)
+
+
     candidates = [
         os.path.join(target, "Mods.json"),
         os.path.join(target, "Arcanes.json"),
