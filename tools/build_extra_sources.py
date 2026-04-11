@@ -20,6 +20,8 @@ MIRROR_BASE = "https://raw.githubusercontent.com/calamity-inc/warframe-public-ex
 WEAPONS_ES = MIRROR_BASE + "ExportWeapons_es.json"
 WARFRAMES_ES = MIRROR_BASE + "ExportWarframes_es.json"
 
+SENTINELS_ES = MIRROR_BASE + "ExportSentinels_es.json"
+
 def http_json(url: str):
     req = Request(url, headers={"User-Agent": "wf-data-extra/1.2"})
     with urlopen(req, timeout=60) as r:
@@ -165,14 +167,86 @@ def build_kitguns(export_weapons_list):
     kitguns.sort(key=lambda x: (order.get(x.get("partType","Parte"), 9), (x.get("name") or "")))
     return kitguns
 
+
+def build_sentinels(export_sentinels_list):
+    out = []
+    for o in export_sentinels_list:
+        if not isinstance(o, dict):
+            continue
+        if (o.get("productCategory") or "") == "Sentinels":
+            out.append({
+                "name": o.get("name"),
+                "uniqueName": o.get("uniqueName"),
+                "productCategory": o.get("productCategory"),
+                "description": o.get("description"),
+                "excludeFromCodex": o.get("excludeFromCodex"),
+            })
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
+def build_kubrows(export_sentinels_list):
+    out = []
+    for o in export_sentinels_list:
+        if not isinstance(o, dict):
+            continue
+
+        pc = (o.get("productCategory") or "").strip()
+        un = (o.get("uniqueName") or "")
+
+        # Kubrows: el export usa rutas internas tipo /Lotus/Types/Game/KubrowPet/...
+        # y suele terminar en ...KubrowPetPowerSuit.
+        if not pc.lower().startswith("kubrow"):
+            continue
+        if ("/KubrowPet/" not in un) and ("KubrowPetPowerSuit" not in un):
+            continue
+
+        out.append({
+            "name": o.get("name"),
+            "uniqueName": un,
+            "productCategory": pc,
+            "description": o.get("description"),
+            "excludeFromCodex": o.get("excludeFromCodex"),
+        })
+
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
+
+
+
+
+def build_kavats_special(export_sentinels_list):
+    # En este export vimos Venari/Venari Prime como Kavat (por uniqueName).
+    out = []
+    for o in export_sentinels_list:
+        if not isinstance(o, dict):
+            continue
+        un = o.get("uniqueName") or ""
+        if "/Kavat/" in un:
+            out.append({
+                "name": o.get("name"),
+                "uniqueName": un,
+                "productCategory": o.get("productCategory"),
+                "description": o.get("description"),
+                "excludeFromCodex": o.get("excludeFromCodex"),
+            })
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
 def main(out_dir: str):
     ensure_dir(out_dir)
 
     weap_root = http_json(WEAPONS_ES)
     wfr_root  = http_json(WARFRAMES_ES)
 
+    sent_root = http_json(SENTINELS_ES)
+
+
     export_weapons = weap_root.get("ExportWeapons", [])
     export_warframes = wfr_root.get("ExportWarframes", [])
+
+    export_sentinels = sent_root.get("ExportSentinels", [])
+
 
     amps = build_amps(export_weapons)
     mechs = build_necramechs(export_warframes)
@@ -184,11 +258,23 @@ def main(out_dir: str):
     write_json(os.path.join(out_dir, "Zaws.json"), zaws)
     write_json(os.path.join(out_dir, "Kitguns.json"), kitguns)
 
+    
+    sentinels = build_sentinels(export_sentinels)
+    kubrows = build_kubrows(export_sentinels)
+    kavats = build_kavats_special(export_sentinels)
+
+    write_json(os.path.join(out_dir, "Sentinels.json"), sentinels)
+    write_json(os.path.join(out_dir, "Kubrows.json"), kubrows)
+    write_json(os.path.join(out_dir, "Kavats.json"), kavats)
+
     print("OK: Generados en", out_dir)
     print(" - Amps.json:", len(amps))
     print(" - Necramechs.json:", len(mechs))
     print(" - Zaws.json:", len(zaws))
     print(" - Kitguns.json:", len(kitguns))
+    print(" - Sentinels.json:", len(sentinels))
+    print(" - Kubrows.json:", len(kubrows))
+    print(" - Kavats.json:", len(kavats))
 
 if __name__ == "__main__":
     today = datetime.datetime.utcnow().strftime("%Y.%m.%d")
