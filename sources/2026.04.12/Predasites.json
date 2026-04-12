@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonName",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc"
+  },
+  {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorRareName",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc"
+  },
+  {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorUncommonName",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorDomesticatedDesc"
+  }
+]

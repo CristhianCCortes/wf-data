@@ -32,6 +32,18 @@
       "sha256": "c3216587365728ccc90fbda9f1fded12f47de5cd718a589edea7573733fad733",
       "size": 52933
     },
+    "HelminthCharger.json": {
+      "version": "2026.04.12",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/HelminthCharger.json",
+      "sha256": "1e16449e4b769e04d39a9a6c1f9f11f6a67aceec2f8a78e63032f668325dcd40",
+      "size": 241
+    },
+    "Hounds.json": {
+      "version": "2026.04.12",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Hounds.json",
+      "sha256": "3f0a126fac32250c59b16529cb8d38901ab0504984383f24a50f8b3267968756",
+      "size": 731
+    },
     "Kavats.json": {
       "version": "2026.04.12",
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Kavats.json",
@@ -50,6 +62,12 @@
       "sha256": "a9c2f2af36099e83c654f72ea014c4d32473593f9f673df8b2c549b2ff281447",
       "size": 2899
     },
+    "MOAs.json": {
+      "version": "2026.04.12",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/MOAs.json",
+      "sha256": "12d457d3246a962a89f571ed6bd5eb556513ca853e5af6df67c17982cf17bb02",
+      "size": 966
+    },
     "Melee.json": {
       "version": "2026.04.12",
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Melee.json",
@@ -67,6 +85,12 @@
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Necramechs.json",
       "sha256": "888f19b5e38fadd99b72ecf75f8fbdf656528c600567f20feedfd8f66bfa823e",
       "size": 383
+    },
+    "Predasites.json": {
+      "version": "2026.04.12",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Predasites.json",
+      "sha256": "82b295277744072e78dd64c0e02e6da745f339448f34025242e5b5fa3e78db1f",
+      "size": 927
     },
     "Primary.json": {
       "version": "2026.04.12",
@@ -97,6 +121,12 @@
       "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Sentinels.json",
       "sha256": "d0b076f5c242907a86b098dc72297cc6897d49165c60e20a95dd70e6a44907de",
       "size": 6132
+    },
+    "Vulpaphylas.json": {
+      "version": "2026.04.12",
+      "url": "https://cdn.jsdelivr.net/gh/CristhianCCortes/wf-data@main/sources/2026.04.12/Vulpaphylas.json",
+      "sha256": "21982a2d4fe23db186039fb96d6bfd35b2595297d557b9a9d1037cd88b6f364a",
+      "size": 925
     },
     "Warframes.json": {
       "version": "2026.04.12",
