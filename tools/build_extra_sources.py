@@ -22,6 +22,93 @@ WARFRAMES_ES = MIRROR_BASE + "ExportWarframes_es.json"
 
 SENTINELS_ES = MIRROR_BASE + "ExportSentinels_es.json"
 
+# __PLUS_COMPANIONS_V1__
+# Fuente más completa (warframe-public-export-plus)
+PLUS_BASE = "https://raw.githubusercontent.com/calamity-inc/warframe-public-export-plus/senpai/"
+PLUS_SENTINELS = PLUS_BASE + "ExportSentinels.json"
+
+def iter_plus_items(root):
+    # plus/ExportSentinels.json viene como dict (mapa)
+    if isinstance(root, dict):
+        return list(root.items())
+    return []
+
+def plus_blob(k, v):
+    if not isinstance(v, dict):
+        v = {}
+    return " ".join([
+        str(k or ""),
+        str(v.get("uniqueName") or ""),
+        str(v.get("name") or ""),
+        str(v.get("productCategory") or ""),
+        str(v.get("type") or ""),
+        str(v.get("category") or ""),
+        str(v.get("description") or ""),
+    ]).lower()
+
+def pick_plus(k, v):
+    if not isinstance(v, dict):
+        v = {}
+    name = v.get("name") or k
+    un = v.get("uniqueName") or k
+    return {
+        "name": name,
+        "uniqueName": un,
+        "productCategory": v.get("productCategory"),
+        "description": v.get("description"),
+    }
+
+def build_moas_plus(items):
+    out=[]
+    for k,v in items:
+        b = plus_blob(k,v)
+        pc = (v.get("productCategory") if isinstance(v, dict) else None) or ""
+        if ("moa" in b) or ("moapet" in b) or (pc.lower()=="moapets"):
+            out.append(pick_plus(k,v))
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
+def build_hounds_plus(items):
+    out=[]
+    for k,v in items:
+        b = plus_blob(k,v)
+        pc = (v.get("productCategory") if isinstance(v, dict) else None) or ""
+        # sabuesos: zanukapet / houndpets
+        if ("zanukapet" in b) or ("hound" in b) or (pc.lower()=="houndpets"):
+            out.append(pick_plus(k,v))
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
+def build_vulpaphylas_plus(items):
+    out=[]
+    for k,v in items:
+        b = plus_blob(k,v)
+        if ("vulp" in b) or ("vulpaphyla" in b) or ("infestedcat" in b):
+            out.append(pick_plus(k,v))
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
+def build_predasites_plus(items):
+    out=[]
+    for k,v in items:
+        b = plus_blob(k,v)
+        if ("preda" in b) or ("predasite" in b) or ("infestedpredator" in b) or ("predatorkubrow" in b):
+            out.append(pick_plus(k,v))
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
+def build_helminth_charger_plus(items):
+    out=[]
+    for k,v in items:
+        b = plus_blob(k,v)
+        # cargador helminth: charger + kubrowpet, sin mezclar predasite/vulp
+        if ("/charger/kubrowpet/" in b) or ("chargerkubrowpetpowersuit" in b) or ("helminth" in b) or ("charger" in b):
+            if ("preda" in b) or ("vulp" in b):
+                continue
+            out.append(pick_plus(k,v))
+    out.sort(key=lambda x: (x.get("name") or ""))
+    return out
+
 def http_json(url: str):
     req = Request(url, headers={"User-Agent": "wf-data-extra/1.2"})
     with urlopen(req, timeout=60) as r:
@@ -267,6 +354,22 @@ def main(out_dir: str):
     write_json(os.path.join(out_dir, "Kubrows.json"), kubrows)
     write_json(os.path.join(out_dir, "Kavats.json"), kavats)
 
+    
+    # === PLUS companions ===
+    plus_root = http_json(PLUS_SENTINELS)
+    plus_items = iter_plus_items(plus_root)
+
+    moas = build_moas_plus(plus_items)
+    hounds = build_hounds_plus(plus_items)
+    vulps = build_vulpaphylas_plus(plus_items)
+    predas = build_predasites_plus(plus_items)
+    charger = build_helminth_charger_plus(plus_items)
+
+    write_json(os.path.join(out_dir, "MOAs.json"), moas)
+    write_json(os.path.join(out_dir, "Hounds.json"), hounds)
+    write_json(os.path.join(out_dir, "Vulpaphylas.json"), vulps)
+    write_json(os.path.join(out_dir, "Predasites.json"), predas)
+    write_json(os.path.join(out_dir, "HelminthCharger.json"), charger)
     print("OK: Generados en", out_dir)
     print(" - Amps.json:", len(amps))
     print(" - Necramechs.json:", len(mechs))
@@ -275,6 +378,11 @@ def main(out_dir: str):
     print(" - Sentinels.json:", len(sentinels))
     print(" - Kubrows.json:", len(kubrows))
     print(" - Kavats.json:", len(kavats))
+    print(" - MOAs.json:", len(moas))
+    print(" - Hounds.json:", len(hounds))
+    print(" - Vulpaphylas.json:", len(vulps))
+    print(" - Predasites.json:", len(predas))
+    print(" - HelminthCharger.json:", len(charger))
 
 if __name__ == "__main__":
     today = datetime.datetime.utcnow().strftime("%Y.%m.%d")
