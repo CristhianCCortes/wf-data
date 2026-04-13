@@ -146,7 +146,7 @@ def build_manifest(sources_dir: str, generated_at: str) -> dict:
         p = os.path.join(sources_dir, fn)
         size = os.path.getsize(p)
         sha = sha256_file(p)
-        url = f"https://cdn.jsdelivr.net/gh/{OWNER}/{REPO}@{BRANCH}/{sources_dir.replace(os.sep,'/')}/{fn}"
+        url = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/{sources_dir.replace(os.sep,'/')}/{fn}"
         sources[fn] = {"version": generated_at, "url": url, "sha256": sha, "size": size}
     return {"schemaVersion": 1, "generatedAt": generated_at, "sources": sources}
 
