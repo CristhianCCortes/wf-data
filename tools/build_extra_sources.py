@@ -63,21 +63,44 @@ def build_moas_plus(items):
     for k,v in items:
         b = plus_blob(k,v)
         pc = (v.get("productCategory") if isinstance(v, dict) else None) or ""
-        if ("moa" in b) or ("moapet" in b) or (pc.lower()=="moapets"):
+        pcl = pc.lower()
+
+        # Exclusiones fuertes: si parece hound/zanuka, NO es MOA
+        if ("zanukapet" in b) or ("hound" in b) or (pcl == "houndpets"):
+            continue
+
+        # Aceptación fuerte por huella interna (más confiable que 'moa' suelto)
+        # En el plus suelen aparecer como 'MoaPet' en key/uniqueName.
+        if "moapet" in b or pcl == "moapets":
             out.append(pick_plus(k,v))
+
     out.sort(key=lambda x: (x.get("name") or ""))
     return out
+
+
+
+
 
 def build_hounds_plus(items):
     out=[]
     for k,v in items:
         b = plus_blob(k,v)
         pc = (v.get("productCategory") if isinstance(v, dict) else None) or ""
-        # sabuesos: zanukapet / houndpets
-        if ("zanukapet" in b) or ("hound" in b) or (pc.lower()=="houndpets"):
+        pcl = pc.lower()
+
+        # Prioridad 1: productCategory exacta
+        if pcl == "houndpets":
             out.append(pick_plus(k,v))
+            continue
+
+        # Fallback: huella fuerte (ZanukaPet)
+        if "zanukapet" in b:
+            out.append(pick_plus(k,v))
+
     out.sort(key=lambda x: (x.get("name") or ""))
     return out
+
+
 
 def build_vulpaphylas_plus(items):
     out=[]
