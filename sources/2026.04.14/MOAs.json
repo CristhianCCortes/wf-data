@@ -1,23 +1,5 @@
 [
   {
-    "name": "/Lotus/Language/Pets/ZanukaPetItemName",
-    "uniqueName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetAPowerSuit",
-    "productCategory": "MoaPets",
-    "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc"
-  },
-  {
-    "name": "/Lotus/Language/Pets/ZanukaPetItemName",
-    "uniqueName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetBPowerSuit",
-    "productCategory": "MoaPets",
-    "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc"
-  },
-  {
-    "name": "/Lotus/Language/Pets/ZanukaPetItemName",
-    "uniqueName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetCPowerSuit",
-    "productCategory": "MoaPets",
-    "description": "/Lotus/Language/SolarisVenus/HoundPetItemDesc"
-  },
-  {
     "name": "/Lotus/Language/SolarisVenus/MoaPetItem",
     "uniqueName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPowerSuit",
     "productCategory": "MoaPets",

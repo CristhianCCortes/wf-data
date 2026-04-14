@@ -65,8 +65,8 @@
     "MOAs.json": {
       "version": "2026.04.14",
       "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.14/MOAs.json",
-      "sha256": "12d457d3246a962a89f571ed6bd5eb556513ca853e5af6df67c17982cf17bb02",
-      "size": 966
+      "sha256": "46bfa60f39da7159109d134bb9a8f0ae346f2731abb00120f9c968ac3951f373",
+      "size": 237
     },
     "Melee.json": {
       "version": "2026.04.14",
