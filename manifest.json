@@ -1,154 +1,154 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026.04.30",
+  "generatedAt": "2026.05.01",
   "sources": {
     "Amps.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Amps.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Amps.json",
       "sha256": "773c26071e540ed0fb50f09b2b46bf406232fba78ede227ab87c95c93a94ca03",
       "size": 6209
     },
     "Arcanes.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Arcanes.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Arcanes.json",
       "sha256": "bab7301b2f69bb2c21c66c8aca305a80dcfe840b44380956c06c889b3cf25d38",
       "size": 408051
     },
     "Arch-Gun.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Arch-Gun.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Arch-Gun.json",
       "sha256": "8438dbea3cb79a4e163790b596d07c487a22d2c2189a38fd07612e9b3a2386f4",
       "size": 155016
     },
     "Arch-Melee.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Arch-Melee.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Arch-Melee.json",
       "sha256": "45209c05b46511a788cd71257df8d0a7af007d1bd07dee5d589e425883fe7988",
       "size": 29714
     },
     "Archwing.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Archwing.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Archwing.json",
       "sha256": "c3216587365728ccc90fbda9f1fded12f47de5cd718a589edea7573733fad733",
       "size": 52933
     },
     "HelminthCharger.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/HelminthCharger.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/HelminthCharger.json",
       "sha256": "1e16449e4b769e04d39a9a6c1f9f11f6a67aceec2f8a78e63032f668325dcd40",
       "size": 241
     },
     "Hounds.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Hounds.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Hounds.json",
       "sha256": "3f0a126fac32250c59b16529cb8d38901ab0504984383f24a50f8b3267968756",
       "size": 731
     },
     "Kavats.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Kavats.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Kavats.json",
       "sha256": "be5e0116f19c5237937bfb479838f5d2bfd105042bae4ba0ebb7511599be8a8a",
       "size": 518
     },
     "Kitguns.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Kitguns.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Kitguns.json",
       "sha256": "4564ef1ff268ba46c2f0586c7cb826b72b6f79dc00a3ab6d6e149ed8a74e0ddb",
       "size": 2121
     },
     "Kubrows.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Kubrows.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Kubrows.json",
       "sha256": "a9c2f2af36099e83c654f72ea014c4d32473593f9f673df8b2c549b2ff281447",
       "size": 2899
     },
     "MOAs.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/MOAs.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/MOAs.json",
       "sha256": "46bfa60f39da7159109d134bb9a8f0ae346f2731abb00120f9c968ac3951f373",
       "size": 237
     },
     "Melee.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Melee.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Melee.json",
       "sha256": "27d83125a0fe7a7c779bdb1c49aac8904971350fe7c82f4c1a5a681ca19224da",
       "size": 2616196
     },
     "Mods.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Mods.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Mods.json",
       "sha256": "fd94cb247f7d4702897139f687adb280a034d400cc464544f78c1120b9cf5eab",
       "size": 9861380
     },
     "Necramechs.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Necramechs.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Necramechs.json",
       "sha256": "888f19b5e38fadd99b72ecf75f8fbdf656528c600567f20feedfd8f66bfa823e",
       "size": 383
     },
     "Predasites.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Predasites.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Predasites.json",
       "sha256": "82b295277744072e78dd64c0e02e6da745f339448f34025242e5b5fa3e78db1f",
       "size": 927
     },
     "Primary.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Primary.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Primary.json",
       "sha256": "0cbfb83bc3b6604a49621c0c06086e969ce0aaf989f3aa9730d30660c80a34c6",
       "size": 2096534
     },
     "Relics.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Relics.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Relics.json",
       "sha256": "3069357b4d0f72315353e03e2ed44ee5fbedf40b48f360240c77c11500db743b",
       "size": 8516713
     },
     "Secondary.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Secondary.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Secondary.json",
       "sha256": "0d440f18db942b5a22d035a042520b54b39abc39dcec4fe8e8eb69803122c3cc",
       "size": 1771153
     },
     "SentinelWeapons.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/SentinelWeapons.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/SentinelWeapons.json",
       "sha256": "ff6a3fcbd8cfa4f7ab3c3f9ab961c34d27d8e2034e8be375348fc4ee6b8c52a2",
       "size": 63686
     },
     "Sentinels.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Sentinels.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Sentinels.json",
       "sha256": "d0b076f5c242907a86b098dc72297cc6897d49165c60e20a95dd70e6a44907de",
       "size": 6132
     },
     "Vulpaphylas.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Vulpaphylas.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Vulpaphylas.json",
       "sha256": "21982a2d4fe23db186039fb96d6bfd35b2595297d557b9a9d1037cd88b6f364a",
       "size": 925
     },
     "Warframes.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Warframes.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Warframes.json",
       "sha256": "350197e690380b4923cb7f26544c61378befffc79a5e3b72dfa9fabe9120b6f1",
       "size": 4570802
     },
     "Zaws.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/Zaws.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/Zaws.json",
       "sha256": "6290d0dab8866702a9638b1b2c968dfe802e7a4b3e64e431468181c02837b158",
       "size": 5294
     },
     "es.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/es.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/es.json",
       "sha256": "5dd5fa8ee28dff2e265c31e27a3859172de4fa0765aa6b678950c6c01f5b7fbf",
       "size": 17995350
     },
     "i18n.json": {
-      "version": "2026.04.30",
-      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.04.30/i18n.json",
+      "version": "2026.05.01",
+      "url": "https://raw.githubusercontent.com/CristhianCCortes/wf-data/main/sources/2026.05.01/i18n.json",
       "sha256": "947550d4cb865f9c107da3dfab3be42323576713b106b4bbdeed7ef028236a74",
       "size": 51093490
     }
