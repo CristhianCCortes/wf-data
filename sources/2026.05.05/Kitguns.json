@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sporelacer",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
+    "partType": "Cámara",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Vermisplicer",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
+    "partType": "Cámara",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Arcroid",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallCritStatPart",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Macro Arcroid",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigPart",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Macro Thymoid",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigCritStatPart",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Palmaris",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Handles/InfPrimaryHandle/InfModularPrimaryHandlePart",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Thymoid",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallPart",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Ulnaris",
+    "uniqueName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Handles/InfSecondaryHandle/InfModularSecondaryHandlePart",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  }
+]
