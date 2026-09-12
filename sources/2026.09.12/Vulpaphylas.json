@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonName",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc"
+  },
+  {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterRareName",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc"
+  },
+  {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterUncommonName",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCatbrowDomesticatedDesc"
+  }
+]
