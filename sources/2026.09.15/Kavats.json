@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Venari",
+    "uniqueName": "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+    "productCategory": "SpecialItems",
+    "description": "El kavat leal de Khora. Su compañero constante y protector.",
+    "excludeFromCodex": true
+  },
+  {
+    "name": "Venari Prime",
+    "uniqueName": "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+    "productCategory": "SpecialItems",
+    "description": "La voluntad de Khora, los colmillos y las garras de Venari.",
+    "excludeFromCodex": true
+  }
+]
