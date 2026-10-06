@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Cargador Helminto",
+    "uniqueName": "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Una combinación experimental de kubrow e infestación. Utiliza larvas y otras habilidades infestadas para infligir daño y controlar el campo de batalla.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Kubrow Chesa",
+    "uniqueName": "/Lotus/Types/Game/KubrowPet/RetrieverKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Un cómplice inteligente, entrenado para quitarle al enemigo tanto sus armas como su botín.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Kubrow Huras",
+    "uniqueName": "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Un aliado sigiloso que sorprende a los enemigos con impresionantes derribos de fuerza explosiva.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Kubrow Raksa",
+    "uniqueName": "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Un guardián fuerte enfocado en proteger a su amo reforzando su defensa y alejando a los atacantes.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Kubrow Sahasa",
+    "uniqueName": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Un compañero confiable que localiza suministros para su maestro tenno y al mismo tiempo reduce las filas enemigas.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Kubrow Sunika",
+    "uniqueName": "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Criada por los orokin para el combate, esta bestia marcial vive para crear caos y derrotar a los oponentes más feroces.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Predásito Faraón",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Estos depredadores cuadrúpedos que embisten con fuerza son compañeros formidables cuando están en el campo.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Predásito Medjay",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Estos depredadores cuadrúpedos que embisten con fuerza son compañeros formidables cuando están en el campo.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Predásito Visir",
+    "uniqueName": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
+    "productCategory": "KubrowPets",
+    "description": "Estos depredadores cuadrúpedos que embisten con fuerza son compañeros formidables cuando están en el campo.",
+    "excludeFromCodex": null
+  }
+]
