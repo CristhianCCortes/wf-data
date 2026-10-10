@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Carrier",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/CarrierPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Modo de asalto' y 'Caja de munición' como preceptos predeterminados, Carrier es un centinela buscador. Carrier también viene con un arma de tipo escopeta.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Carrier Prime",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeCarrierPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Esta ornamenta de centinela es un excelente ejemplo de la tardía y estilosa artesanía orokin.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Dethcube",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/DethCubePowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Modo de asalto' y 'Vaporizar' como preceptos predeterminados, Dethcube actúa exactamente como eso: un increíble cubo de la muerte. Viene armado con el rifle Deth Machine.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Dethcube Prime",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Modo de asalto' y 'Vaporizar' como preceptos predeterminados, Dethcube Prime es la cumbre del apoyo letal. Viene armado con el rifle Deth Machine Prime.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Diriga",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/ArcDronePowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Diriga electrocuta a los enemigos cercanos y destruye amenazas lejanas, utilizando el rifle de francotirador Vulklok y los preceptos 'Disparo calculado', 'Bobina de arco eléctrico' y 'Pulso eléctrico'.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Djinn",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/GubberPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Golpeador' y 'Atracción fatal' como preceptos predeterminados, Djinn es un centinela de combate. Djinn también viene con un arma de dardos envenenados.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Helios",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Investigador' como su único precepto y 'Desarmador' como arma, el versátil centinela Helios actúa como un guardián letal y como un escáner automático del códice. Los escaneos requieren un escáner del códice equipado y una carga disponible.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Helios Prime",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Este protector hambriento por el conocimiento defiende a su maestro con Desarmador Prime.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Nautilus",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Omni automática' y 'Acordonar' como preceptos determinados, este centinela es el compañero ideal para los largos viajes a bordo del Railjack.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Nautilus Prime",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Este valiente marinero defiende a su tripulación con el Verglas Prime.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Oxylus",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/RadarPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Escanear formas de vida acuáticas' y 'Escanear materia' como preceptos determinados, Oxylus fue diseñado para asistir en operaciones de búsqueda y rescate a través del paisaje hostil de los Valles del Orbe. Oxylus también viene con un rifle Multron.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Shade",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/ShadePowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Venganza' y 'Fantasma' como preceptos predeterminados, Shade es muy útil para los jugadores sigilosos. Shade también viene con una pistola de ráfagas láser.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Shade Prime",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Shade Prime se especializa en el sigilo y está armado con el Láser de Ráfagas Prime. Juntos, pueden dominar las sombras.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Shade Prisma",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrismaShadePowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Una joya extraña del vació.¿Cómo podría ser algo tan hermoso hecho a mano para Sigilo?",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Taxon",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/TnSentinelCrossPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Modo de asalto' y 'Conversión molecular' como sus preceptos estándar, Taxon protege a su dueño con restauración de escudos. Viene equipado con el arma Artax que lanza rayos de hielo.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Wyrm",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Con 'Modo de asalto' y 'Dispersión de multitudes' como preceptos predeterminados, Wyrm es un centinela altamente ofensivo. Wyrm viene con un rifle láser.",
+    "excludeFromCodex": null
+  },
+  {
+    "name": "Wyrm Prime",
+    "uniqueName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeWyrmPowerSuit",
+    "productCategory": "Sentinels",
+    "description": "Tanto guardaespaldas como símbolo de prestigio, el centinela Wyrm Prime fue la última línea de defensa para los tenno de más alto rango de la era orokin.",
+    "excludeFromCodex": null
+  }
+]
