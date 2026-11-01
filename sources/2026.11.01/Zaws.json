@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Balla",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipOne",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Balla",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOne",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Cyath",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFour",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Cyath",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Dehtat",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFive",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Dehtat",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFive",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Dokrahm",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipEleven",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Jayap",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFive",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Korb",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleNine",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Kronsh",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipSix",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Kronsh",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Kroostra",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleSix",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Kwath",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleThree",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Laka",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleTwo",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Mewan",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipThree",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Mewan",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThree",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Ooltha",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipTwo",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Ooltha",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwo",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Peye",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleOne",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Rabvee",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTen",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Seekalla",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFour",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Sepfahn",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNine",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Shtung",
+    "uniqueName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleTen",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  }
+]
