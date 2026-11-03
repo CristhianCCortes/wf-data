@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Abrazadera Anspatha",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Grip/SentAmpSet2GripPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Certus",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartC",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Clapkra",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Juttni",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartB",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Lohrin",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartC",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Mota",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingGrip",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Plaga",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartB",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Abrazadera Suo",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Dissic",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartB",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Exard",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Klebrik",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartC",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Mota",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingChassis",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Pencha",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Phahd",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Chassis/SentAmpSet2ChassisPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Propa",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartC",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Estructura Shraksun",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartB",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Cantic",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Granmu",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartC",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Klamora",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartC",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Lega",
+    "uniqueName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartB",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Mota",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingBarrel",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Rahn",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Raplak",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  },
+  {
+    "name": "Prisma Shwaak",
+    "uniqueName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB",
+    "partType": "Parte",
+    "productCategory": "Pistols",
+    "category": null,
+    "type": null,
+    "masteryReq": 0
+  }
+]
